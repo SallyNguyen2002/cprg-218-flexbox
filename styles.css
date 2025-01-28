@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+    margin: 0;
+}
+/*HEADER STYLES*/
+header {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	background-color: #dccfba;
+    padding: 2rem;
+}
+header img {
+	width: 200px;
+	height: 200px;
+}
+
+main {
+	display: flex;
+    gap:1rem;
+    margin: 2rem;
+}
+
+section {
+	flex: 1;
+	border: 1px solid green;
+}
+
+section#desserts {
+	flex: 2;
+}
+
+section h2{
+    background-color: rgb(94, 59, 8);
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+section span{
+    font-weight: bold;
+}
+
+section ul{
+    list-style: none;
+    padding: 1rem; 
+}
